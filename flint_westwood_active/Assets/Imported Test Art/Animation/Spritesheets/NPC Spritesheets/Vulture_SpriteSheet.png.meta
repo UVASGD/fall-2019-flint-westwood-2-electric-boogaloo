@@ -1,0 +1,679 @@
+fileFormatVersion: 2
+guid: 3da143a6419738d4b9bcd87dc0ce14f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6039866586473441038
+    second: Vulture_SpriteSheet_0
+  - first:
+      213: -559298239606020929
+    second: Vulture_SpriteSheet_1
+  - first:
+      213: -5341556347668342103
+    second: Vulture_SpriteSheet_2
+  - first:
+      213: 481471783616491248
+    second: Vulture_SpriteSheet_3
+  - first:
+      213: 7791469125491074603
+    second: Vulture_SpriteSheet_4
+  - first:
+      213: -2481231011990406581
+    second: Vulture_SpriteSheet_5
+  - first:
+      213: 7800781734850302557
+    second: Vulture_SpriteSheet_6
+  - first:
+      213: 1284397995074237106
+    second: Vulture_SpriteSheet_7
+  - first:
+      213: 8315388629199136186
+    second: Vulture_SpriteSheet_8
+  - first:
+      213: 6545164190982108407
+    second: Vulture_SpriteSheet_9
+  - first:
+      213: 7884363828587206450
+    second: Vulture_SpriteSheet_10
+  - first:
+      213: 7986541224531613137
+    second: Vulture_SpriteSheet_11
+  - first:
+      213: 651463812754021470
+    second: Vulture_SpriteSheet_12
+  - first:
+      213: -5658448832390559334
+    second: Vulture_SpriteSheet_13
+  - first:
+      213: 3773941901132382114
+    second: Vulture_SpriteSheet_14
+  - first:
+      213: 2354692366573305237
+    second: Vulture_SpriteSheet_15
+  - first:
+      213: 8556761044492174521
+    second: Vulture_SpriteSheet_16
+  - first:
+      213: -5173192424054306810
+    second: Vulture_SpriteSheet_17
+  - first:
+      213: -4521249811239656171
+    second: Vulture_SpriteSheet_18
+  - first:
+      213: -375278192853220156
+    second: Vulture_SpriteSheet_19
+  - first:
+      213: -4801098978242619259
+    second: Vulture_SpriteSheet_20
+  - first:
+      213: -4852591975031583998
+    second: Vulture_SpriteSheet_21
+  - first:
+      213: -6021677908453360708
+    second: Vulture_SpriteSheet_22
+  - first:
+      213: -5819481484572399042
+    second: Vulture_SpriteSheet_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8fb4a21480734688a57ea1100aac0
+      internalID: 6039866586473441038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ec0e8fd75445428c68cc501dcde9a
+      internalID: -559298239606020929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa62e7f091450c49b5c9e0cdbf690ec
+      internalID: -5341556347668342103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f811825b8537bc549bbd867a4525166d
+      internalID: 481471783616491248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958b2ed807c59c949a735971c6fee6fc
+      internalID: 7791469125491074603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 232
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725d96c8b3dc3ea4daaa5aa4e45cc791
+      internalID: -2481231011990406581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe216de11dd82c14b8e892eac5b70c0a
+      internalID: 7800781734850302557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aecfec859ea7a641930abf2e374982d
+      internalID: 1284397995074237106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675eabf582689674abd5d84dea64d9c4
+      internalID: 8315388629199136186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b370a98266a052e4a9dea128cc63ad19
+      internalID: 6545164190982108407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4446cfef4ee6e4793caacd1c902c2a
+      internalID: 7884363828587206450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 174
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba45357318dc7184c9166517ce70eedb
+      internalID: 7986541224531613137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbb23976e9529e45a08cc207d43acd8
+      internalID: 651463812754021470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 116
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3520e446056e6447ad242202229830a
+      internalID: -5658448832390559334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff49892f27394c4e997e78f982faeec
+      internalID: 3773941901132382114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 116
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1451e93e4ac684c961795e9437a3d8
+      internalID: 2354692366573305237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6bccf8d7388bc4f866b6f678077a49
+      internalID: 8556761044492174521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 58
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4281baf80daa7ec468c3ef2ee884f759
+      internalID: -5173192424054306810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 58
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff65bd556e5589948b18d32c78b1cbd7
+      internalID: -4521249811239656171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 58
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593b5aea0e1957c4fa88fbe7f0951c46
+      internalID: -375278192853220156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 58
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14034bb0736db8428f8e05c2723e6d5
+      internalID: -4801098978242619259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18f0fee2064db54fb66b030f8bcf5db
+      internalID: -4852591975031583998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e774bb006c3924688cb99adbd16f99
+      internalID: -6021677908453360708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulture_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fab802c8c609304f809c07146d477cf
+      internalID: -5819481484572399042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
