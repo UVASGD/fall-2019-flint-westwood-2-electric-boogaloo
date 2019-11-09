@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class EventManager : MonoBehaviour
 {
-    private Dictionary<string, UnityEvent> events
+    private Dictionary<string, UnityEvent> events;
     // Start is called before the first frame update
     void Start()
     {

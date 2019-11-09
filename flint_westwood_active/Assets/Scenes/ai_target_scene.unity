@@ -207,7 +207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89443029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.17, z: 0}
+  m_LocalPosition: {x: 2.11, y: 0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -225,14 +225,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eef3ab321d80744da9e9ddbc5c73c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  npcWeapon: {fileID: 11400000, guid: a27c7b06f8f56d748ad4791ac31effe0, type: 2}
-  waypoints:
-  - _waypoint: {x: 1, y: 5}
-  - _waypoint: {x: 2, y: 3}
-  - _waypoint: {x: 4, y: 4}
-  - _waypoint: {x: -1, y: 2}
-  - _waypoint: {x: 5, y: 0}
+  player: {fileID: 244430057}
+--- !u!1 &244430057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5165353023598893273, guid: cccb36ead1ca86148a9bb5489e98b2cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5165353023197685797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &674156856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 370867596663661657, guid: 47a23b403ff6cbe43b7726c8bc93cb8f,

@@ -4,6 +4,6 @@ using UnityEngine;
 
 public enum NPCState
 {
-    DefaultState, Patrol, Track, Interact, Attack, Flee
+    DefaultState, Patrol, Track, Interact, RangedAttack, MeleeAttack, FlyingAttack
 }
 

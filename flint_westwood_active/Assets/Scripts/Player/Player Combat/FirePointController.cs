@@ -12,13 +12,12 @@ public class FirePointController : MonoBehaviour
  
     void Start()
     {
-   
+        
     }
  
     void Update()
     {
         
-
         v3Pos = Input.mousePosition;
         v3Pos.z = (player.transform.position.z - Camera.main.transform.position.z);
         v3Pos = v3Pos - player.transform.position;
@@ -29,7 +28,6 @@ public class FirePointController : MonoBehaviour
         float yPos = Mathf.Sin(Mathf.Rad2Deg * angle) * distance;
         transform.localPosition =
             new Vector3(player.transform.position.x + xPos * 4, player.transform.position.y + yPos * 4, 0);
-
 
     }
 }
