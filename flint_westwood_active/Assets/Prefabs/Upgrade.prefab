@@ -119,7 +119,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BIG OL ITEM NAME
+  m_text: UPGRADE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8e5c62229de1bc4b83fccca0f1c35e6, type: 2}
   m_sharedMaterial: {fileID: -8925226403714413336, guid: a8e5c62229de1bc4b83fccca0f1c35e6,
@@ -189,10 +189,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 4215425257367670980}
-    characterCount: 16
+    characterCount: 7
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1

@@ -13,7 +13,7 @@ public class DisplayItem : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        image = GetComponentInChildren<Image>();
+        image = transform.Find("Image").GetComponent<Image>();
         text = GetComponentInChildren<TextMeshProUGUI>();
     }
 
