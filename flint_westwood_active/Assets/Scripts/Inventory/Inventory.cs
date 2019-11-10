@@ -8,7 +8,8 @@ public class Inventory : MonoBehaviour
 
     Transform weapon_content, prop_content;
 
-    List<GameObject> items = new List<GameObject>();
+    List<GameObject> weapons = new List<GameObject>();
+    List<GameObject> props = new List<GameObject>();
 
     // Start is called before the first frame update
     void Awake()
@@ -28,15 +29,21 @@ public class Inventory : MonoBehaviour
     {
         GameObject spawned_item = Instantiate(item, transform.position, Quaternion.identity);
         if (item.GetComponent<InventoryItem>().weapon)
+        {
             spawned_item.transform.parent = weapon_content;
+            weapons.Add(spawned_item);
+        }
         else
+        {
             spawned_item.transform.parent = prop_content;
-        items.Add(spawned_item);
+            props.Add(spawned_item);
+        }
     }
 
     public void RemoveItem(GameObject item)
     {
-        items.Remove(item);
+        weapons.Remove(item);
+        props.Remove(item);
         Destroy(item);
     }
 }
