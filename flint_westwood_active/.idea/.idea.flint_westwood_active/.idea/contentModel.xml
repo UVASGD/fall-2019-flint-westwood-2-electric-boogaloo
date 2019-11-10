@@ -65,11 +65,15 @@
               <e p="PlayerCombatController.cs" t="Include" />
             </e>
             <e p="Player Control" t="Include">
+              <e p="DoomController.cs" t="Include" />
               <e p="PlayerMovementTesting.cs" t="Include" />
               <e p="PlayerRotationController.cs" t="Include" />
             </e>
           </e>
           <e p="Scriptable Objects" t="Include">
+            <e p="Props" t="Include">
+              <e p="Prop.cs" t="Include" />
+            </e>
             <e p="Weapons" t="Include">
               <e p="Weapon.cs" t="Include" />
             </e>

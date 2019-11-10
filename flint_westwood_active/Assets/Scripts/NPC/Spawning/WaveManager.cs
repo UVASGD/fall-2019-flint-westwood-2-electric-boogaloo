@@ -7,7 +7,7 @@ using TMPro;
 public class WaveManager : MonoBehaviour
 {
     public string waveDescription;
-    private TMP_Text waveCountdownText;
+    private TextMeshProUGUI waveCountdownText;
 
     public float waveTimer;
     public int numEnemiesRemaining;
