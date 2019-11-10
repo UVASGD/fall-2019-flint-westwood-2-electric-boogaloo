@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Hyden\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Hyden\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_flint_westwood_active.1570745905.00" t="ExcludeRecursive" />
+    <e p="D:\DevDesign\Unity\sgd\fall-2019-flint-westwood-2-electric-boogaloo\flint_westwood_active" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -70,6 +72,11 @@
               <e p="PlayerRotationController.cs" t="Include" />
             </e>
           </e>
+          <e p="Prop Placement" t="Include">
+            <e p="Placable.cs" t="Include" />
+            <e p="PropManager.cs" t="Include" />
+            <e p="PropPlacementHandler.cs" t="Include" />
+          </e>
           <e p="Scriptable Objects" t="Include">
             <e p="Props" t="Include">
               <e p="Prop.cs" t="Include" />
@@ -115,9 +122,7 @@
       <e p="flint_westwood_active.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_flint_westwood_active.1100856579.00" t="ExcludeRecursive" />
   </component>
 </project>
