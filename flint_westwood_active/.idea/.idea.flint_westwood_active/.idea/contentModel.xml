@@ -33,6 +33,7 @@
             <e p="DisplayItem.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="InventoryItem.cs" t="Include" />
+            <e p="InventoryTester.cs" t="Include" />
             <e p="Upgrade.cs" t="Include" />
             <e p="Workbench.cs" t="Include" />
           </e>
