@@ -47,9 +47,11 @@ public class AnimatorGenerator : MonoBehaviour
         attackingToMovingTransition.AddCondition(AnimatorConditionMode.If, 1, "AnimationState");
     }
 
-    AnimatorStateTransition AddTransition(AnimatorState fromState, AnimatorState toState)
+    AnimatorStateTransition AddTransition(AnimatorState fromState, AnimatorState toState, int stateValue=0)
     {
-        return fromState.AddTransition(toState);
+        AnimatorStateTransition newTransition = fromState.AddTransition(toState);
+        AddCondition(newTransition, stateValue);
+        return newTransition;
     }
 
     void AddCondition(AnimatorStateTransition transition, int stateValue)
