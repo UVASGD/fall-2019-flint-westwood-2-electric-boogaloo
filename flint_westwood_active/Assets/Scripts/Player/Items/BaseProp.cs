@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseWeapon : Item
+public class BaseProp : Item
 {
-    public Weapon weaponAttributes;
+    private Prop _propAttributes;
+    // Start is called before the first frame update
     void Start()
     {
         

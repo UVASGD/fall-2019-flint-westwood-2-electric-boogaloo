@@ -67,6 +67,10 @@
             </e>
           </e>
           <e p="Player" t="Include">
+            <e p="Items" t="Include">
+              <e p="BaseProp.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+            </e>
             <e p="Player Combat" t="Include">
               <e p="BulletController.cs" t="Include" />
               <e p="DrawFireLine.cs" t="Include" />

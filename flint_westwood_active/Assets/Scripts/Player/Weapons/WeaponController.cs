@@ -28,7 +28,6 @@ public class WeaponController : MonoBehaviour
         
     }
     
-    
     void HandleFiring()
     {
         if (Input.GetButtonDown("Fire1") && equippedWeapon.ammoCount > 0 && fireRateTimer < Time.time)
