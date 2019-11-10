@@ -6,7 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public static Inventory Instance;
 
-    Transform weapon_content, placeable_content;
+    Transform weapon_content, prop_content;
 
     List<GameObject> items = new List<GameObject>();
 
@@ -21,12 +21,16 @@ public class Inventory : MonoBehaviour
         Instance = this;
 
         weapon_content = transform.FindDeepChild("WeaponContent");
+        prop_content = transform.FindDeepChild("PropContent");
     }
 
     public void AddItem(GameObject item)
     {
         GameObject spawned_item = Instantiate(item, transform.position, Quaternion.identity);
-        spawned_item.transform.parent = weapon_content;
+        if (item.GetComponent<InventoryItem>().weapon)
+            spawned_item.transform.parent = weapon_content;
+        else
+            spawned_item.transform.parent = prop_content;
         items.Add(spawned_item);
     }
 
