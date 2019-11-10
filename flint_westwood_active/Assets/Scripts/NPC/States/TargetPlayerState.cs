@@ -23,7 +23,7 @@ public class TargetPlayerState : FWState
     
     public override void ShouldStateChange(GameObject player, GameObject currentNpc)
     {
-        if (PlayerInRange(player, currentNpc) && _currentWeapon.numBullets > 0) // we have ammo and we are in range
+        if (PlayerInRange(player, currentNpc) && _currentWeapon.ammoCount > 0) // we have ammo and we are in range
         {
             currentNpc.GetComponent<FWStateController>().SwitchState(NPCStateTransition.TargetedPlayer); // tell stat machine player has been targeted (so we can transition to the attack state)
         }

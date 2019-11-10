@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c221e401db2701d4a96b169851df9ab7, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  mame: Pistol
+  desc: 7 shot handgun, not very lethal
+  ammoCount: 7
+  damage: 5
+  reloadSpeed: 2
+  fireRate: 2
+  range: 15
+  price: 10
+  isUpgradable: 1
+  upgradeType: 0
+  weaponSprite: {fileID: 21300000, guid: f3789c6990e48594ba07603392aa02a3, type: 3}
+  projectile: {fileID: -3239112618801646072, guid: 1c8d746791e2bfe4f9bb630a1ff5841a,
+    type: 3}
+  fireSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  outOfAmmoSound: {fileID: 0}

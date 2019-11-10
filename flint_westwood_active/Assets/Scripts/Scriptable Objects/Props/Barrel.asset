@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 462fb84f4a1b44989639e575ff961fc1, type: 3}
+  m_Name: Barrel
+  m_EditorClassIdentifier: 
+  propName: Barrel
+  propDesc: Barrel that explodes when you shoot it
+  propPrice: 5
+  propConditon: 100
+  damageDealt: 25
+  canDamageEnemies: 1
+  isPurchasable: 1
+  isPlacable: 1
+  propSprite: {fileID: 1728252226162326000, guid: e38a6f099a75a4e70ac626958d17828c,
+    type: 3}
