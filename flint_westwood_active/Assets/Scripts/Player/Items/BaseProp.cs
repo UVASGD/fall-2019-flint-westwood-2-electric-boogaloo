@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class BaseProp : Item
 {
-    private Prop _propAttributes;
-    // Start is called before the first frame update
+    public Prop propAttributes;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

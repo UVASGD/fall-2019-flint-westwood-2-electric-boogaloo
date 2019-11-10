@@ -11,7 +11,6 @@ public class Inventory : MonoBehaviour
     List<GameObject> weapons = new List<GameObject>();
     List<GameObject> props = new List<GameObject>();
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (Instance && Instance != this)

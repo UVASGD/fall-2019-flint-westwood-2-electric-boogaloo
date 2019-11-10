@@ -5,9 +5,9 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     public KeyCode switchWeapons;
-    public List<Weapon> ownedWeapons;
+    public List<BaseWeapon> ownedWeapons;
     private int weaponIndex = 0;
-    public Weapon equippedWeapon;
+    public BaseWeapon equippedWeapon;
 
     public int ammo;
     public float reloadTimer;
@@ -30,7 +30,7 @@ public class WeaponController : MonoBehaviour
     
     void HandleFiring()
     {
-        if (Input.GetButtonDown("Fire1") && equippedWeapon.ammoCount > 0 && fireRateTimer < Time.time)
+        if (Input.GetButtonDown("Fire1") && equippedWeapon.weaponAttributes.ammoCount > 0 && fireRateTimer < Time.time)
         {
             Debug.Log("Firing");
             Fire();
@@ -49,12 +49,12 @@ public class WeaponController : MonoBehaviour
 
     void Fire()
     {
-        if (equippedWeapon.ammoCount == 0) return;
-        equippedWeapon.ammoCount--;
+        if (equippedWeapon.weaponAttributes.ammoCount == 0) return;
+        equippedWeapon.weaponAttributes.ammoCount--;
         if (!(fireRateTimer < Time.time)) return;
-        HandleFireRate(equippedWeapon.fireRate);
-        equippedWeapon.projectile.SetRange(10f);
-        Instantiate(equippedWeapon.projectile.gameObject, firePoint.position, Quaternion.identity);
+        HandleFireRate(equippedWeapon.weaponAttributes.fireRate);
+        equippedWeapon.weaponAttributes.projectile.SetRange(10f);
+        Instantiate(equippedWeapon.weaponAttributes.projectile.gameObject, firePoint.position, Quaternion.identity);
 
     }
 
