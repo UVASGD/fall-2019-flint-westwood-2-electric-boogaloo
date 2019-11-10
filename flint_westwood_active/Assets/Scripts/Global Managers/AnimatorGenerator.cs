@@ -1,48 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class AnimatorGenerator : MonoBehaviour
 {
-    [MenuItem("Animators/Create New Controller")]
-    static void CreateController()
+    public Motion idleMotion;
+    public Motion movingMotion;
+    public Motion attackingMotion;
+    public Motion dyingMotion;
+    public Motion specialMotion;
+
+
+    void Start()
     {
-        // Creates the controller
-        var controller = UnityEditor.Animations.AnimatorController.CreateAnimatorControllerAtPath("Assets/Mecanim/StateMachineTransitions.controller");
-
-        // Add parameters
-        controller.AddParameter("AnimationState", AnimatorControllerParameterType.Int);
-
-        // Add StateMachines
+        AddControllerTransitions((AnimatorController) this.GetComponent<Animator>().runtimeAnimatorController);
+    }
+    
+    void AddControllerTransitions(AnimatorController controller)
+    {
         var rootStateMachine = controller.layers[0].stateMachine;
-
-        // Add States
+        
         var idleState = rootStateMachine.AddState("Idle");
         var movingState = rootStateMachine.AddState("Moving");
         var attackingState = rootStateMachine.AddState("Attacking");
         var dyingState = rootStateMachine.AddState("Dying");
         var specialState = rootStateMachine.AddState("Special");
-
-        // Add Transitions
-//        var exitTransition = stateA1.AddExitTransition();
-//        exitTransition.AddCondition(UnityEditor.Animations.AnimatorConditionMode.If, 0, "TransitionNow");
-//        exitTransition.duration = 0;
-//
-//        var resetTransition = rootStateMachine.AddAnyStateTransition(stateA1);
-//        resetTransition.AddCondition(UnityEditor.Animations.AnimatorConditionMode.If, 0, "Reset");
-//        resetTransition.duration = 0;
-
+        idleState.motion = idleMotion;
+        movingState.motion = movingMotion;
+        attackingState.motion = attackingMotion;
+        dyingState.motion = dyingMotion;
+        specialState.motion = specialMotion;
+        
 
 
         rootStateMachine.defaultState = idleState;
         var idleToMovingTransition = idleState.AddTransition(movingState);
         var movingToIdleTransition = movingState.AddTransition(idleState);
-        idleToMovingTransition.AddCondition(UnityEditor.Animations.AnimatorConditionMode.If, 1, "AnimationState");
-        movingToIdleTransition.AddCondition(UnityEditor.Animations.AnimatorConditionMode.If, 0, "AnimationState");
+        idleToMovingTransition.AddCondition(AnimatorConditionMode.If, 1, "AnimationState");
+        movingToIdleTransition.AddCondition(AnimatorConditionMode.If, 0, "AnimationState");
 
         var movingToAttackingTransition = movingState.AddTransition(attackingState);
         var attackingToMovingTransition = attackingState.AddTransition(movingState);
-        
+        movingToAttackingTransition.AddCondition(AnimatorConditionMode.If, 2, "AnimationState");
+        attackingToMovingTransition.AddCondition(AnimatorConditionMode.If, 1, "AnimationState");
+    }
+
+    AnimatorStateTransition AddTransition(AnimatorState fromState, AnimatorState toState)
+    {
+        return fromState.AddTransition(toState);
+    }
+
+    void AddCondition(AnimatorStateTransition transition, int stateValue)
+    {
+        transition.AddCondition(AnimatorConditionMode.If, stateValue, "AnimationState");
     }
 }

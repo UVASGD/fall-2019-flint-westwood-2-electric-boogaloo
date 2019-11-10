@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: e83e6a66768fd4dbd8b78b951c91c6d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -771079600123357841
+    second: SNES - Doom - Weapons_0
+  - first:
+      213: -5668153703151382858
+    second: SNES - Doom - Weapons_1
+  - first:
+      213: -6438720014142411063
+    second: SNES - Doom - Weapons_2
+  - first:
+      213: 646157807180084787
+    second: SNES - Doom - Weapons_3
+  - first:
+      213: 6872636333727609166
+    second: SNES - Doom - Weapons_4
+  - first:
+      213: -4906664030114991088
+    second: SNES - Doom - Weapons_5
+  - first:
+      213: -7133626125537430196
+    second: SNES - Doom - Weapons_6
+  - first:
+      213: 5558274935793360007
+    second: SNES - Doom - Weapons_7
+  - first:
+      213: -1965932165769180740
+    second: SNES - Doom - Weapons_8
+  - first:
+      213: 6110161023614664649
+    second: SNES - Doom - Weapons_9
+  - first:
+      213: 7900790606272279837
+    second: SNES - Doom - Weapons_10
+  - first:
+      213: 9007532522549459758
+    second: SNES - Doom - Weapons_11
+  - first:
+      213: -756785891000452458
+    second: SNES - Doom - Weapons_12
+  - first:
+      213: 7200526832798270133
+    second: SNES - Doom - Weapons_13
+  - first:
+      213: -1463277459534666215
+    second: SNES - Doom - Weapons_14
+  - first:
+      213: 6981638764068991513
+    second: SNES - Doom - Weapons_15
+  - first:
+      213: -7775744002864360095
+    second: SNES - Doom - Weapons_16
+  - first:
+      213: -271985437756626229
+    second: SNES - Doom - Weapons_17
+  - first:
+      213: 3398768029285293630
+    second: SNES - Doom - Weapons_18
+  - first:
+      213: 840659381113738893
+    second: SNES - Doom - Weapons_19
+  - first:
+      213: 4855922119415206714
+    second: SNES - Doom - Weapons_20
+  - first:
+      213: 7694282324343717686
+    second: SNES - Doom - Weapons_21
+  - first:
+      213: -6811231832427420149
+    second: SNES - Doom - Weapons_22
+  - first:
+      213: -1121443162529315672
+    second: SNES - Doom - Weapons_23
+  - first:
+      213: -4206088214718219172
+    second: SNES - Doom - Weapons_24
+  - first:
+      213: 4710232868492187275
+    second: SNES - Doom - Weapons_25
+  - first:
+      213: -1974706835669306305
+    second: SNES - Doom - Weapons_26
+  - first:
+      213: 7562175776608106432
+    second: SNES - Doom - Weapons_27
+  - first:
+      213: -5582738190196168862
+    second: SNES - Doom - Weapons_28
+  - first:
+      213: -5319666932576027596
+    second: SNES - Doom - Weapons_29
+  - first:
+      213: -3842883355909564292
+    second: SNES - Doom - Weapons_30
+  - first:
+      213: -290781217683559907
+    second: SNES - Doom - Weapons_31
+  - first:
+      213: 6750031391346697663
+    second: SNES - Doom - Weapons_32
+  - first:
+      213: -7663378387072161310
+    second: SNES - Doom - Weapons_33
+  - first:
+      213: -8954354481127541515
+    second: SNES - Doom - Weapons_34
+  - first:
+      213: 700442440686924245
+    second: SNES - Doom - Weapons_35
+  - first:
+      213: 6775647158126114583
+    second: SNES - Doom - Weapons_36
+  - first:
+      213: -4392195911960280016
+    second: SNES - Doom - Weapons_37
+  - first:
+      213: -8512239462395700081
+    second: SNES - Doom - Weapons_38
+  - first:
+      213: 983489799348655966
+    second: SNES - Doom - Weapons_39
+  - first:
+      213: 8336119500213251065
+    second: SNES - Doom - Weapons_40
+  - first:
+      213: 5642397384389097228
+    second: SNES - Doom - Weapons_41
+  - first:
+      213: -1655724617337115355
+    second: SNES - Doom - Weapons_42
+  - first:
+      213: 893473087977824453
+    second: SNES - Doom - Weapons_43
+  - first:
+      213: 6822032732455236033
+    second: SNES - Doom - Weapons_44
+  - first:
+      213: -892203461157425376
+    second: SNES - Doom - Weapons_45
+  - first:
+      213: -5315130065155691970
+    second: SNES - Doom - Weapons_46
+  - first:
+      213: 5989244240726892523
+    second: SNES - Doom - Weapons_47
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 661
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ff922d1ff4d4b2b9041e08753f0f7c
+      internalID: -771079600123357841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 661
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e958e2685d19449da8a46400a08146d2
+      internalID: -5668153703151382858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 661
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e858fc31e088d4f4ea79071680265982
+      internalID: -6438720014142411063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 661
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbc4393c80a74a5faa2ee99b9c28a12
+      internalID: 646157807180084787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 655
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaefd2b8c01e41cb9ee2f79b17df918
+      internalID: 6872636333727609166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 577
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f4311df24ce4bc0a6d4ebfeda3b75d
+      internalID: -4906664030114991088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 577
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d873cbad9eee143ed9e22fb7fdf0e1d4
+      internalID: -7133626125537430196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 577
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4378f347d654d58b152e304d643d5e
+      internalID: 5558274935793360007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 598
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b910e85c8da44123bef7bfee210ec2f
+      internalID: -1965932165769180740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 481
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e92e148de3849ea90a2f0600b10a22
+      internalID: 6110161023614664649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 481
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270e3a08d8e94f108d5c1689d7fb164
+      internalID: 7900790606272279837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 481
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca567b9c1724a9389893580a306fb1
+      internalID: 9007532522549459758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 482
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4546b35e79abe4269b772c8c996c86f1
+      internalID: -756785891000452458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 479
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e1f4eef04bb45dd811a67805a8ff86
+      internalID: 7200526832798270133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 478
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf7e5c5fae74e6397726eae5fb2139
+      internalID: -1463277459534666215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 494
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508d400f1ca13466e9b631f382689923
+      internalID: 6981638764068991513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 415
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999c574a4911d4268bf0b16ad7c0f60e
+      internalID: -7775744002864360095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 415
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3885e1cb8dbb42b8bc3ed9d67968549
+      internalID: -271985437756626229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 415
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38d394e8b51844679b05154cb3909b0
+      internalID: 3398768029285293630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 416
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b795d6120b994f4c95978fa27fefdc8
+      internalID: 840659381113738893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 378
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626f3157cbc034bd398f2d9bec1d7273
+      internalID: 4855922119415206714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 390
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29bdda10a05a4fbb9ae9487a9883dcb
+      internalID: 7694282324343717686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 383
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca2099aa850c436e808b26d59f78dbe
+      internalID: -6811231832427420149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 351
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9ed2ce7744433795c6c7a13721b15
+      internalID: -1121443162529315672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 351
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4520c3846914677ae18cd4f91e2ab8
+      internalID: -4206088214718219172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 351
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858492015b4542baa8d4f5aead75d28
+      internalID: 4710232868492187275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 369
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeedec93a986486380eb84f0b8bc7f2
+      internalID: -1974706835669306305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 354
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77534fcf265c644f09e11c6f73801428
+      internalID: 7562175776608106432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 376
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ac609acf89d452189a60b19c506658
+      internalID: -5582738190196168862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 351
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3672fd63b1774c4380ed3087575abdf
+      internalID: -5319666932576027596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 351
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d22aeddb92e4e54959e8552e81f5c2
+      internalID: -3842883355909564292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 362
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42f25746380645e382426eb864eee89
+      internalID: -290781217683559907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 351
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b22993447b414054a757690a26b5f80
+      internalID: 6750031391346697663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 353
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5ca35b93f2f4e8ea408b81dae213e0
+      internalID: -7663378387072161310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 285
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9588e4c1350e443cb7b9dc9939a50b3
+      internalID: -8954354481127541515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 285
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373238ac587fc4d478bc3aaa3e95c3c1
+      internalID: 700442440686924245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 285
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8d8cd735f2040cbbd8bb079c12b416
+      internalID: 6775647158126114583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 285
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555b8069c41b04375a3918ad78f23165
+      internalID: -4392195911960280016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 288
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab32efcf5e98047bd83a4934596a450a
+      internalID: -8512239462395700081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_39
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 205
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8fdbcfc9a5245ea9ef75629a660cc5
+      internalID: 983489799348655966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 205
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb8cfa164af94031a58a1dd8b2f6911
+      internalID: 8336119500213251065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 205
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df6cafa5c8664e0b94b6a70c0eaa437
+      internalID: 5642397384389097228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 205
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edbdff1f0452425696124648bb12fd7
+      internalID: -1655724617337115355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 209
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f516ca57c4f4eb5bd2455059dbe8f0
+      internalID: 893473087977824453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 129
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82e7f94133b94f8a98d8226579427cb
+      internalID: 6822032732455236033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 129
+        width: 78
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c96a6e80389748c5b6532aada9e0d30
+      internalID: -892203461157425376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 129
+        width: 80
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce256759f48641348c4f389fa5ebaf0
+      internalID: -5315130065155691970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Doom - Weapons_47
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 134
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206c97f492aa4ce8a90a23df24539a3
+      internalID: 5989244240726892523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
