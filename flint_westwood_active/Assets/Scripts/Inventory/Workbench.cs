@@ -10,6 +10,8 @@ public class Workbench : MonoBehaviour
     InventoryItem selected_item;
     DisplayItem displayed_item;
 
+    Transform upgrade_content;
+
     public Sprite default_sprite;
     public string default_text;
 
@@ -22,12 +24,15 @@ public class Workbench : MonoBehaviour
             return;
         }
         Instance = this;
+
+        upgrade_content = transform.FindDeepChild("UpgradeContent");
     }
 
     private void Start()
     {
         displayed_item = GetComponentInChildren<DisplayItem>();
         displayed_item.Set(default_sprite, default_text);
+        Deselect();
     }
 
     public void SelectItem(InventoryItem item)
@@ -35,7 +40,6 @@ public class Workbench : MonoBehaviour
         Deselect();
         selected_item = item;
         displayed_item.Set(item.image.sprite, item.text.text);
-        /*
         foreach (GameObject u in upgrades)
         {
             // enable applicable upgrades
@@ -44,12 +48,7 @@ public class Workbench : MonoBehaviour
             {
                 upgrade.Activate();
             }
-            else
-            {
-                upgrade.Deactivate();
-            }
         }
-        */
         // play sfx
     }
 
@@ -58,15 +57,24 @@ public class Workbench : MonoBehaviour
         // play sfx
         selected_item = null;
         displayed_item.Set(default_sprite, default_text);
+        DeactivateUpgrades();
+    }
+
+    public void DeactivateUpgrades()
+    {
+        foreach (GameObject u in upgrades)
+        {
+            // enable applicable upgrades
+            Upgrade upgrade = u.GetComponent<Upgrade>();
+            upgrade.Deactivate();
+        }
     }
 
     public void Sell()
     {
         if (selected_item)
         {
-            // give player monies
-            // play sfx
-            Inventory.Instance.RemoveItem(selected_item.gameObject);
+            selected_item.Sell();
         }
         Deselect();
     }
@@ -74,7 +82,13 @@ public class Workbench : MonoBehaviour
     public void AddUpgrade(GameObject item)
     {
         GameObject spawned_item = Instantiate(item, transform.position, Quaternion.identity);
-        upgrades.Add(item);
+        spawned_item.transform.parent = upgrade_content;
+        Upgrade upgrade = spawned_item.GetComponent<Upgrade>();
+        if (selected_item && selected_item.HasTag(upgrade.UpgradeType))
+            upgrade.Activate();
+        else
+            upgrade.Deactivate();
+        upgrades.Add(spawned_item);
     }
 
     public void RemoveUpgrade(GameObject item)

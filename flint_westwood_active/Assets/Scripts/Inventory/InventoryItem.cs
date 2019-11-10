@@ -7,9 +7,6 @@ using UnityEngine.UI;
 public class InventoryItem : MonoBehaviour
 {
     [HideInInspector]
-    public bool weapon;
-
-    [HideInInspector]
     public Image image;
     [HideInInspector]
     public TextMeshProUGUI text;
@@ -22,7 +19,7 @@ public class InventoryItem : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        image = GetComponentInChildren<Image>();
+        image = transform.Find("Image").GetComponent<Image>();
         text = GetComponentInChildren<TextMeshProUGUI>(); 
         button = GetComponentInChildren<Button>();
     }
@@ -41,6 +38,21 @@ public class InventoryItem : MonoBehaviour
 
     public void ApplyUpgrade(Upgrade upgrade)
     {
+        // sfx
         // apply upgrade to game item
+    }
+
+    public void Sell()
+    {
+        // give player monies
+        // play sfx
+        Inventory.Instance.RemoveItem(gameObject);
+    }
+
+    public void Remove()
+    {
+        // play sfx
+        if (game_item) Destroy(game_item);
+        Destroy(gameObject);
     }
 }
