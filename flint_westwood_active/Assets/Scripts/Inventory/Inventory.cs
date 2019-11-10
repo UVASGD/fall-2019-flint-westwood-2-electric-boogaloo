@@ -42,6 +42,8 @@ public class Inventory : MonoBehaviour
 
     public void RemoveItem(GameObject item)
     {
+        if (!item)
+            return;
         weapons.Remove(item);
         props.Remove(item);
         Destroy(item);

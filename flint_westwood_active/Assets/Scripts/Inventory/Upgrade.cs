@@ -4,10 +4,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class InventoryItem : MonoBehaviour
+public enum UpgradeType { Light, Heavy }
+
+public class Upgrade : MonoBehaviour
 {
-    [HideInInspector]
-    public bool weapon;
+    public UpgradeType UpgradeType;
 
     [HideInInspector]
     public Image image;
@@ -23,24 +24,23 @@ public class InventoryItem : MonoBehaviour
     void Awake()
     {
         image = GetComponentInChildren<Image>();
-        text = GetComponentInChildren<TextMeshProUGUI>(); 
+        text = GetComponentInChildren<TextMeshProUGUI>();
         button = GetComponentInChildren<Button>();
     }
 
-    // Update is called once per frame
+    public void Activate()
+    {
+        button.enabled = true;
+    }
+
+    public void Deactivate()
+    {
+        button.enabled = false;
+    }
+
     public void OnClick()
     {
         // tell the workbench to select me!
-        Workbench.Instance.SelectItem(this);
-    }
-
-    public bool HasTag(UpgradeType upgradeType)
-    {
-        return true;
-    }
-
-    public void ApplyUpgrade(Upgrade upgrade)
-    {
-        // apply upgrade to game item
+        Workbench.Instance.UpgradeItem(this);
     }
 }
