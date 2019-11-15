@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NPC
 {
-    public class Enemy : MonoBehaviour
+    public class Enemy : MonoBehaviour, IDamagable
     {
         public EnemyAttributes enemyAttributes;
 
@@ -16,6 +16,12 @@ namespace NPC
         private void Update()
         {
             throw new NotImplementedException();
+        }
+
+        public void TakeDamage()
+        {
+            Debug.Log("ouch");
+            enemyAttributes.enemyHealth--;
         }
     }
 }

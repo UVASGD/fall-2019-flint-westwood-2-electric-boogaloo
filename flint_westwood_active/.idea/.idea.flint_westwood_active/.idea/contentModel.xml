@@ -11,6 +11,13 @@
           <e p="Camera" t="Include">
             <e p="CameraController.cs" t="Include" />
           </e>
+          <e p="Combat" t="Include">
+            <e p="IDamagable.cs" t="Include" />
+            <e p="IDamager.cs" t="Include" />
+            <e p="Projectiles" t="Include">
+              <e p="Projectile.cs" t="Include" />
+            </e>
+          </e>
           <e p="Data" t="Include">
             <e p="Enums" t="Include">
               <e p="NPCState.cs" t="Include" />
@@ -23,11 +30,13 @@
           </e>
           <e p="Global Managers" t="Include">
             <e p="AnimatorGenerator.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
             <e p="EventManager.cs" t="Include" />
           </e>
           <e p="Interactable" t="Include">
             <e p="IInteractable.cs" t="Include" />
             <e p="WantedPoster.cs" t="Include" />
+            <e p="Workbench.cs" t="Include" />
           </e>
           <e p="NPC" t="Include">
             <e p="Animation" t="Include">

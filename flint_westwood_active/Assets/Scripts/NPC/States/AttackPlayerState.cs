@@ -21,11 +21,22 @@ public class AttackPlayerState : FWState
     {
         // Pseudocode
         // if player exists, is in range and is visible (checked by previous state)
-        // if npc has bullets in weapon (checked by previous state)
+        // if npc  has bullets in weapon (checked by previous state)
         // npc takes aim at player (over a certain time period) using Coroutine?
         // npc fires after a certain time period (player is alerted that they're being aimed at)
+        Vector3 playerPos = player.transform.position, npcPos = currentNpc.transform.position;
+        float attackRange = 5f;
         
+        float distToPlayer = Vector3.Distance(npcPos, playerPos);
+        if (distToPlayer < attackRange)
+        {
+            Vector3 dirToPlayer = playerPos - npcPos;
+            float angleToPlayer = Mathf.Atan2(dirToPlayer.y, dirToPlayer.x) * Mathf.Rad2Deg;
+            Quaternion toTurn = Quaternion.AngleAxis(angleToPlayer, Vector3.forward);
+            currentNpc.transform.rotation =
+                Quaternion.RotateTowards(currentNpc.transform.rotation, toTurn, 90 * Time.deltaTime);
+            
+        }
         
-        throw new System.NotImplementedException();
     }
 }
