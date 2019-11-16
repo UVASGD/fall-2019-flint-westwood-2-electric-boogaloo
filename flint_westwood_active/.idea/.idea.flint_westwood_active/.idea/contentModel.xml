@@ -59,9 +59,13 @@
               <e p="FWStateMachine.cs" t="Include" />
               <e p="FWStateManager.cs" t="Include" />
               <e p="FWStateUtility.cs" t="Include" />
+              <e p="PlayerManager.cs" t="Include" />
             </e>
             <e p="States" t="Include">
               <e p="AttackPlayerState.cs" t="Include" />
+              <e p="FlyingAttackState.cs" t="Include" />
+              <e p="FlyingState.cs" t="Include" />
+              <e p="FlyingStateController.cs" t="Include" />
               <e p="PatrolWaypointState.cs" t="Include" />
               <e p="TargetPlayerState.cs" t="Include" />
             </e>

@@ -13,7 +13,4 @@ public class Waypoint : MonoBehaviour
         _waypoint = new Vector2(x, y);
     }
     
-    
-
-
 }
