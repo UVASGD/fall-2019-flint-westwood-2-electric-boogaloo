@@ -7,10 +7,13 @@ public class FWStateController : MonoBehaviour
     public GameObject player;
 
     private FWStateManager _manager;
+    public Waypoint[] waypoints;
 
     private void InitializeStateManager()
     {
         _manager = new FWStateManager();
+        PatrolWaypointState waypointState = new PatrolWaypointState(waypoints);
+        _manager.AddNewState(waypointState);
     }
     
     public void SwitchState(NPCStateTransition transition)

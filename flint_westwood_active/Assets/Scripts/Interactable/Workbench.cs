@@ -26,10 +26,19 @@ public class Workbench : MonoBehaviour, IInteractable
 
     private void HandleWorkbenchInventory()
     {
-        if (isInventoryOpen)
+        if (!isInventoryOpen)
         {
             DisplayInventory();
         }
+        else
+        {
+            CloseInventory();
+        }
+    }
+
+    private void CloseInventory()
+    {
+        
     }
 
     private void DisplayInventory()
