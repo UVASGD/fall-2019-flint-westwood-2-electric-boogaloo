@@ -35,7 +35,7 @@ public class PlayerCombatController : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-
+            print("bullet was fired.");
             GameObject newBullet = Instantiate(bullet, firePoint.position, Quaternion.identity);
 
             Vector3 mousePos = crosshair.position;
@@ -43,6 +43,8 @@ public class PlayerCombatController : MonoBehaviour
             newBullet.transform.rotation = Quaternion.Euler(new Vector3(0, 0, Mathf.Atan2(mousePos.y - firePoint.position.y, mousePos.x - firePoint.position.x) * Mathf.Rad2Deg - 90));
 
             fireLine.ClearLine();
+
+            print("pow");
 
         }
 

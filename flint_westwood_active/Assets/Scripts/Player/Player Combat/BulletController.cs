@@ -21,7 +21,7 @@ public class BulletController : MonoBehaviour
 
         if (rayHit)
         {
-
+          //  print("It's Hit!");
 //            Breakable health = rayHit.collider.GetComponent<Breakable>();
 
             if (false)
@@ -31,19 +31,19 @@ public class BulletController : MonoBehaviour
 
             }
 
-            transform.up = Vector3.Reflect(transform.up, rayHit.normal);
+            //transform.up = Vector3.Reflect(transform.up, rayHit.normal);
 
             numberOfHits--;
-
-            if (numberOfHits <= 0)
-            {
-
-                Destroy(gameObject);
-
-            }
+            print("ray hits =" + numberOfHits);
+            
 
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy (gameObject);
     }
 
 }

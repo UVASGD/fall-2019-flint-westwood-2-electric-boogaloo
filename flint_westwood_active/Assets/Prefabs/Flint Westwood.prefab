@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5165353023598893274}
   - component: {fileID: 5165353023598893275}
   - component: {fileID: 5165353023598893349}
+  - component: {fileID: 868835875374521567}
+  - component: {fileID: 8916551608273483734}
   m_Layer: 0
   m_Name: Flint Westwood
   m_TagString: Player
@@ -88,6 +90,44 @@ MonoBehaviour:
   playerAnimator: {fileID: 5165353023798120280}
   crosshair: {fileID: 370867596663661657, guid: 47a23b403ff6cbe43b7726c8bc93cb8f,
     type: 3}
+--- !u!114 &868835875374521567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165353023598893273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32d708f960fadab4eb7f529d4fd5ab77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 5165353023598893272}
+  bullet: {fileID: 0}
+  crosshair: {fileID: 5252104337375658835, guid: 47a23b403ff6cbe43b7726c8bc93cb8f,
+    type: 3}
+--- !u!114 &8916551608273483734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165353023598893273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9df4ff0de94694dbed24d780cd65ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dash: {fileID: 0}
+  bounces: 0
+  spaceBetweenDashes: 0
+  lineMaxDistance: 0
+  bounceOffset: 0
+  movementPerSecond: 0
+  lineHitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  firePoint: {fileID: 0}
 --- !u!1 &5165353023798120287
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,6 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5165353023817516728}
   - component: {fileID: 5165353023817516731}
+  - component: {fileID: 5286184588864607629}
   m_Layer: 0
   m_Name: Legs
   m_TagString: Untagged
@@ -270,3 +311,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5286184588864607629
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5165353023817516729}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8fc9ef2240f82d641bddb67e9840f3c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
