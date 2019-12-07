@@ -6,9 +6,9 @@ public class FWStateController : MonoBehaviour
 {
     public GameObject player;
 
-    private FWStateManager _manager;
+    protected FWStateManager _manager;
 
-    private void InitializeStateManager()
+    protected virtual void InitializeStateManager()
     {
         _manager = new FWStateManager();
     }
@@ -22,12 +22,17 @@ public class FWStateController : MonoBehaviour
         InitializeStateManager();   
     }
 
-    void Update()
+    protected virtual void Update()
     {
         if (player && this.gameObject)
         {
             _manager.CurrentState.ShouldStateChange(player, this.gameObject);
             _manager.CurrentState.ExecuteCurrentStateBehavior(player, this.gameObject);
         }
+    }
+
+    public void StartStateCoroutine(IEnumerator coroutineToPlay)
+    {
+        StartCoroutine(coroutineToPlay);
     }
 }
